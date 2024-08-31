@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+    font-family:  'Roboto', sans-serif;
+}
+body{
+    color:white;
+    background: linear-gradient(90deg,rgba(202,222,39,0.84) 0%, #c95c8b 80%);
+}
+h2
+{
+    font-size: 30px;
+    font-weight: 300px;
+    margin:10px;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 200px;
+    gap:3px;
+    margin-top: 20px;
+}
+.container > div{
+    cursor: pointer;
+    background-position: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+    background-image: fixed;
+}
+.container > div:hover
+{
+    opacity: 0.7;
+    transform: scale(0.98);
+}
+.bg-1
+{
+    background-image: url("https://img.etimg.com/thumb/msid-111729271,width-630,resizemode-4,imgsize-749998/india-vs-zimbabwe-5th-t20i-live-score-today-match-scorecard-commentary-harare-sports-club-shubman-gill-abhishek-sharma-sikandar-raza.jpg");
+}
+.bg-2
+{
+    background: url("https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1q6t25.img?w=768&h=432&m=6");
+}
+.bg-3
+{
+    background-image: url("https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1q6NYe.img?w=549&h=309&m=6&x=251&y=64&s=97&d=97");
+}
+.bg-4
+{
+    background-image: url("https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1q5GD1.img?w=768&h=432&m=6");
+}
+.bg-5
+{
+    background-image: url("https://resize.indiatvnews.com/en/centered/newbucket/1200_675/2024/07/untitled-design-2024-07-15t121445-1721025892.jpg");
+}
+.bg-6
+{
+    background-image: url("https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qemn2.img?w=549&h=309&m=6&x=168&y=230&s=104&d=67");
+}
+.bg-7
+{   
+    background: url("https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qea1x.img?w=768&h=432&m=6");
+}
+.bg-8
+{
+    background-image: url("https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qitMh.img?w=768&h=431&m=6");
+}
+.container div p a:hover
+{
+    color: red;
+}
+.container div p a
+{
+    color: white;
+    text-decoration: none;
+}
+.container div h2
+{
+    margin-right: 150px;
+    background-color: whitesmoke;
+    color: black;
+    opacity: 0.5;
+}
+.container > div:nth-of-type(1)
+{
+    grid-column: 1/3;
+    grid-row: span 2;
+    
+}
+.bg-4
+{
+    grid-row: span 2;
+}
+header h1
+{
+    text-align: center;
+    text-shadow: 7px 1px 4px rgba(0,0,0,0.6);
+    color: black;
+}
+.container div h2
+{
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.container > div:hover h2
+{
+    visibility: hidden;
+}
